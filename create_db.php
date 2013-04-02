@@ -17,6 +17,8 @@ CREATE TABLE tweets (
 	id int(11) NOT NULL auto_increment,
 	msg TEXT,
 	datetime int(11) NOT NULL default 0,
+	user_token TEXT,
+	user_secret TEXT,
 	PRIMARY KEY (id)
 )";
 mysql_query($sql) or die(mysql_error());

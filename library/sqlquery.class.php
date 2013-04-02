@@ -35,7 +35,12 @@ class SQLQuery {
         $Values = '';
         foreach ($FieldValuePairs as $Field => $Value) {
             $Fields = $Fields.$Separator.$Field;
-            $Values = $Values.$Separator.mysql_real_escape_string($Value);
+            if(is_string($Value)) {
+                $SeparatorString = '"';
+            } else {
+                $SeparatorString = '';
+            }
+            $Values = $Values.$Separator.$SeparatorString.mysql_real_escape_string($Value).$SeparatorString;
             $Separator = ',';
         }
         $query = 'INSERT INTO '.$this->_table.' ('.$Fields.') VALUES ('.$Values.')';
@@ -58,9 +63,9 @@ class SQLQuery {
     	return $this->query($query);
     }
     
-    function select($id) {
-    	$query = 'SELECT * FROM '.$this->_table.' WHERE `id` = \''.mysql_real_escape_string($id).'\'';
-    	return $this->query($query, 1);    
+    function select() {
+    	$query = 'SELECT msg, datetime FROM '.$this->_table.' WHERE `user_token` = "'.USER_TOKEN.'" AND `user_secret` = "'.USER_SECRET.'"  ORDER BY datetime DESC';
+    	return $this->query($query, 0);
     }
 
     function query($query, $singleResult = 0) {

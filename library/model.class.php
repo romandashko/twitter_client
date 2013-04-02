@@ -5,9 +5,7 @@ class Model extends SQLQuery {
     protected $_table;
 
 	function __construct($action,$table) {
-
-		$this->connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
-
+        $this->connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
         $this->_model = get_class($this);
         $this->_action = $action;
 		$this->_table = $table;

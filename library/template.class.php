@@ -19,11 +19,15 @@ class Template {
     function render() {
 		extract($this->variables);
 
-        include (ROOT . DS . 'views' . DS . 'header.php');
-        //include (ROOT . DS . 'views' . DS . 'form.php');
-        include (ROOT . DS . 'views' . DS . $this->_action . '.php');
+        $filename = ROOT . DS . 'views' . DS . $this->_action . '.php';
 
-        include (ROOT . DS . 'views' . DS . 'footer.php');
+        if (file_exists($filename)) {
+            include (ROOT . DS . 'views' . DS . 'header.php');
+
+            include (ROOT . DS . 'views' . DS . $this->_action . '.php');
+
+            include (ROOT . DS . 'views' . DS . 'footer.php');
+        }
     }
 
 }

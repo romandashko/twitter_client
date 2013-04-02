@@ -8,11 +8,13 @@ function clearData($data, $type="s") {
 }
 
 function main() {
-	global $url;
+
     global $default;
 
-    if (!isset($url)) {
-        header('Location: '.$_SERVER['REQUEST_URI'].$default);
+    if (isset($_GET['url'])) {
+        $url = $_GET['url'];
+    }else{
+        $url = $default;
     }
 
     $urlArray = array();
@@ -33,7 +35,7 @@ function main() {
 	if (method_exists($controller, $action)) {
 		call_user_func_array(array($starter,$action),$queryString);
 	} else {
-        throw new Exception(sprintf('The required method "%s" does not exist for "%s"', $action, $controller));
+         throw new Exception(sprintf('The required method "%s" does not exist for "%s"', $action, $controller));
     }
 }
 
@@ -45,7 +47,7 @@ function __autoload($className) {
 	} else if (file_exists(ROOT . DS . 'models' . DS . strtolower($className) . '.php')) {
 		require_once(ROOT . DS . 'models' . DS . strtolower($className) . '.php');
 	} else {
-        throw new Exception(sprintf('The required file "%s" does not exist"', $className.'....php'));
+        throw new Exception(sprintf('The required file "%s" does not exist"', strtolower($className).'....php'));
     }
 }
     main();

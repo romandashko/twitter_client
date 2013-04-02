@@ -1,21 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
-<head>
-    <title>Twitter client</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
-</head>
-<body>
-
-
+<em><?php echo "You are logged in under the name: ".$account?></em>
+<br/>
 <form action="post" method="post">
 
-    Twit:<br/>
-    <textarea name="msg" cols="50" rows="5"></textarea><br/>
     <br/>
-    <input type="submit" value="Post twit!"/>
+    <textarea name="msg" cols="50" rows="5"></textarea><br/>
+
+    <input type="submit" value="Tweet!"/>
 
 </form>
+<br/>
 <?php foreach ($data as $record):
     $msg = nl2br($record['Tweet']['msg']);
     $time_info = time() - $record['Tweet']['datetime'];
