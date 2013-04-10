@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8fbe4d4-659e-4c15-8a2c-1a6979125138" name="Default" comment="for local testing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/sign_in.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\twitter_client\callback.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\twitter_client\createdb.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/model.class.php" afterPath="$PROJECT_DIR$/library/model.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/shared.php" afterPath="$PROJECT_DIR$/library/shared.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/sqlquery.class.php" afterPath="$PROJECT_DIR$/library/sqlquery.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/template.class.php" afterPath="$PROJECT_DIR$/library/template.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tmhoauth/tmhOAuth.php" afterPath="$PROJECT_DIR$/models/tmhoauth/tmhOAuth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tweetsmodel.php" afterPath="$PROJECT_DIR$/models/tweetsmodel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/twitteroauth/OAuth.php" afterPath="$PROJECT_DIR$/models/twitteroauth/OAuth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/twitteroauth/twitteroauth.php" afterPath="$PROJECT_DIR$/models/twitteroauth/twitteroauth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/feed.php" afterPath="$PROJECT_DIR$/views/feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/tweetscontroller.php" afterPath="$PROJECT_DIR$/controllers/tweetscontroller.php" />
     </list>
     <list id="5b4aea36-31c0-444e-af43-c7babf7d64e6" name="Rejected commit: Default" comment="for local testing" />
     <ignored path="Twitter client.iws" />
@@ -50,7 +36,7 @@
       <file leaf-file-name="shared.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/shared.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="11" selection-start="841" selection-end="841" vertical-scroll-proportion="-7.1923075">
+            <state line="34" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-19.26923">
               <folding />
             </state>
           </provider>
@@ -59,16 +45,16 @@
       <file leaf-file-name="template.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/template.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-15.692307">
+            <state line="10" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.5769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_in.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/sign_in.php">
+      <file leaf-file-name="sqlquery.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/sqlquery.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="-6.5384617">
+            <state line="66" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-7.3076925">
               <folding />
             </state>
           </provider>
@@ -77,16 +63,7 @@
       <file leaf-file-name="feed.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/feed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.1923075">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="322" selection-end="350" vertical-scroll-proportion="-5.8846154">
+            <state line="1" column="60" selection-start="53" selection-end="61" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -95,7 +72,7 @@
       <file leaf-file-name="controller.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/controller.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-3.5769231">
+            <state line="17" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.5769231">
               <folding />
             </state>
           </provider>
@@ -104,16 +81,16 @@
       <file leaf-file-name="model.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/model.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-5.8846154">
+            <state line="11" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="-3.5769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="76" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3046595">
+            <state line="5" column="76" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,16 +99,25 @@
       <file leaf-file-name="tweetsmodel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/tweetsmodel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="49" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-4.6923075">
+            <state line="58" column="28" selection-start="2124" selection-end="2124" vertical-scroll-proportion="5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/TweetsController.php">
+      <file leaf-file-name="tweetscontroller.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/tweetscontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.34615386">
+            <state line="20" column="14" selection-start="420" selection-end="420" vertical-scroll-proportion="0.3297491">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="-7.1538463">
               <folding />
             </state>
           </provider>
@@ -150,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/models/twitteroauth/OAuth.php" />
         <option value="$PROJECT_DIR$/models/twitteroauth/twitteroauth.php" />
         <option value="$PROJECT_DIR$/library/template.class.php" />
@@ -161,11 +146,12 @@
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/library/model.class.php" />
         <option value="$PROJECT_DIR$/createdb.php" />
-        <option value="$PROJECT_DIR$/library/shared.php" />
         <option value="$PROJECT_DIR$/controllers/TweetsController.php" />
         <option value="$PROJECT_DIR$/models/tweetsmodel.php" />
         <option value="$PROJECT_DIR$/views/feed.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/library/shared.php" />
+        <option value="$PROJECT_DIR$/controllers/tweetscontroller.php" />
       </list>
     </option>
   </component>
@@ -232,16 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,34 +260,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twitter client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twitter_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twitter client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twitter_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -332,16 +280,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../level 2/mod4" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="eshop" serverId="7224034c-884e-4a2b-aada-c4a98224c2d4">
     <servers>
@@ -381,17 +339,17 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
           <server_name />
         </option>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
-      <method>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -407,13 +365,6 @@
       </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="7224034c-884e-4a2b-aada-c4a98224c2d4" server_name="eshop">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -422,6 +373,13 @@
         </option>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <configuration default="false" name="l" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="890">
       <method />
@@ -513,8 +471,8 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037879" sideWeight="0.34417808" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037879" sideWeight="0.24315068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30833334" sideWeight="0.16780822" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30833334" sideWeight="0.41952056" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40068492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3469697" sideWeight="0.38869864" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -590,12 +548,8 @@
           <line>177</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/models/tweetsmodel.php</url>
-          <line>90</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/models/tweetsmodel.php</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/controllers/tweetscontroller.php</url>
+          <line>20</line>
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -606,105 +560,101 @@
         <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.05862069" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="-6.730769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/sqlquery.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/tmhoauth/tmhOAuth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="512" column="0" selection-start="18161" selection-end="18161" vertical-scroll-proportion="-3.7307692">
-          <folding />
-        </state>
+        <state line="512" column="0" selection-start="18161" selection-end="18161" vertical-scroll-proportion="-3.7307692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/model.class.php">
+    <entry file="file://$PROJECT_DIR$/views/sign_in.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/template.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-15.692307">
+        <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="322" selection-end="350" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="11" selection-start="841" selection-end="841" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-3.5769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/sign_in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/TweetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.34615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/tweetsmodel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="49" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-4.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/feed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.1923075">
+        <state line="9" column="0" selection-start="322" selection-end="350" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="76" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3046595">
+        <state line="5" column="76" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="-3.5769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/template.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.5769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-19.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/sqlquery.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-7.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="-7.1538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.5769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="60" selection-start="53" selection-end="61" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tweetsmodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="28" selection-start="2124" selection-end="2124" vertical-scroll-proportion="5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tweetscontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="420" selection-end="420" vertical-scroll-proportion="0.3297491">
           <folding />
         </state>
       </provider>
